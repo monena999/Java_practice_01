@@ -1,0 +1,20 @@
+git config --global user.name "Hiroki_Sato"
+git config --global user.email "vandalism9999@gmail.com"
+git clone https://github.com/monena999/Java_practice_01.git
+
+
+git checkout -b develop
+git checkout -b main
+
+#
+git status
+
+#ステージング(「.」すべて送信)
+git add .
+
+git commit
+
+
+git config --global core.editor "\"C:\\Program Files (x86)\\sakura\\sakura.exe\""
+
+git push --set-upstream origin develop
